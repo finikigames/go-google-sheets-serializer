@@ -1,4 +1,4 @@
-module main
+module csvserializer
 
 go 1.22.3
 
