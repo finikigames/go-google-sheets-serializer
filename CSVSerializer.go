@@ -1,4 +1,4 @@
-package main
+package csvserializer
 
 import (
     "fmt"
@@ -6,8 +6,6 @@ import (
     "reflect"
     "encoding/json"
 )
-
-func main() {}
 
 func convertToStruct[T any](records [][]string) ([]T, error) {
     header := records[0]
