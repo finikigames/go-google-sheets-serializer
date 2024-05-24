@@ -1,4 +1,4 @@
-module csvserializer
+module github.com/finikigames/go-google-sheets-serializer
 
 require (
 	cloud.google.com/go/auth v0.4.1 // indirect
