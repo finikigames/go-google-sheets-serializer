@@ -9,7 +9,7 @@
     - Обрабатывает специальные поля, такие как целые числа
 
 Example
-```csharp
+```go
 import (
     "log"
     "encoding/csv"
@@ -52,7 +52,7 @@ func main() {
 ```
 
 Models example:
-```csharp
+```go
 type Boss struct {
     Id string `json:"id"`
     SetupId string `json:"setup_id"`
