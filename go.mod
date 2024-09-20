@@ -1,5 +1,7 @@
 module github.com/finikigames/go-google-sheets-serializer
 
+go 1.22.5
+
 require (
 	cloud.google.com/go/auth v0.4.1 // indirect
 	cloud.google.com/go/auth/oauth2adapt v0.2.2 // indirect
